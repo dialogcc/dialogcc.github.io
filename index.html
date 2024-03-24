@@ -126,7 +126,8 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Proposed Pipeline</h2>
 
-        <img src="./static/images/pipeline.svg" alt="method" width="80%">
+
+        <img src="./static/images/pipeline.svg" alt="method" style="display:block;border: none;">
         <h2 class="subtitle has-text-centered">
           <b>Overview of our proposed pipeline.</b> We propose an automated pipeline which consists of three steps: (1) <i>collecting</i>, (2) <i>aligning</i>, and (3) <i>filtering</i>.
         </h2>
@@ -134,9 +135,11 @@
         <div class="content has-text-justified">
           <p>
           In order to construct DialogCC, we introduce an automatic pipeline, which consists of three steps: (1) collecting, (2) aligning, and (3) filtering. 
-          <li><b>Collecting:</b> We collect five multi-turn text-only social dialogue datasets (i.e., Persona-Chat, EmpatheticDialogues, Wizard-of-Wikipedia, DailyDialog, BlendedSkillTalk) and Conceptual Captions 3M (CC3M).</li>
-          <li><b>Aligning:</b> After collecting source datasets, to ensure image-dialogue coherence, we ask GPT-4 to infer all possible image-sharing moments via zero-shot prompting and leverage the CLIP to increase the aligned image relevancy.</li>
-          <li><b>Filtering:</b> We eliminate inappropriate images based on CLIP similarity for image-image consistency.</li>  
+          <ul>
+            <li><b>Collecting:</b> We collect five multi-turn text-only social dialogue datasets (i.e., Persona-Chat, EmpatheticDialogues, Wizard-of-Wikipedia, DailyDialog, BlendedSkillTalk) and Conceptual Captions 3M (CC3M).</li>
+            <li><b>Aligning:</b> After collecting source datasets, to ensure image-dialogue coherence, we ask GPT-4 to infer all possible image-sharing moments via zero-shot prompting and leverage the CLIP to increase the aligned image relevancy.</li>
+            <li><b>Filtering:</b> We eliminate inappropriate images based on CLIP similarity for image-image consistency.</li>  
+          </ul>
         </p>
           
         </div>
