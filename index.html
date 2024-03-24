@@ -58,7 +58,7 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>School of Computing, KAIST</span>
             <span class="author-block"><sup>2</sup>NAVER Vision</span>
-            <span class="author-block"><sup>3</sup>NAVER Cloud AI Works</span>
+            <span class="author-block"><sup>3</sup>NAVER Cloud Multimodal AI</span>
           </div>
 
           <div class="column has-text-centered">
@@ -156,9 +156,7 @@
         <h2 class="title is-3">DialogCC</h2>
 
         <img src="./static/images/dialogcc_example.svg" alt="dialogcc" width="80%">
-        <h2 class="subtitle has-text-centered">
-          An example of DialogCC.
-        </h2>
+        
         
         <div class="content has-text-justified">
           <p>
@@ -179,8 +177,19 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Findings</h2>
 
-        <h2 class="title is-4">DialogCC contributes to the model’s robustness.</h2>
-          <img src="./static/images/main_result.svg" alt="method" width="100%">
+        <h2 class="title is-4">Finding 1: DialogCC contributes to the model’s robustness.</h2>
+          <img src="./static/images/main_result.svg" alt="method" width="80%">
+        
+          <div class="content has-text-justified">
+            <p>
+              Although the scale of DialogCC is significantly smaller than MMDialog (83K vs. 1M), DialogCC contributes to the model’s understanding of the unseen dialogue dataset on both tasks. This suggests that increasing the quality of the dataset is more important than the scale.
+            
+          </p>
+            
+          </div>
+        
+        <h2 class="title is-4">Finding 2: DialogCC contributes to the model’s robustness.</h2>
+          <img src="./static/images/main_result.svg" alt="method" width="80%">
         
           <div class="content has-text-justified">
             <p>
@@ -206,13 +215,20 @@
 
 <footer class="footer">
   <div class="container">
-    
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2212.04119">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/passing2961/DialogCC" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
           <p>
-            Website design borrowed from <a
-              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+            This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> and licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
           </p>
         </div>
       </div>
